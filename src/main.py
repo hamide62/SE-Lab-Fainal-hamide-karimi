@@ -1,8 +1,8 @@
 from flask import Flask, jsonify, request
-from flasgger import Swagger
+#from flasgger import Swagger
 
 app = Flask(__name__)
-swagger = Swagger(app)
+#swagger = Swagger(app)
 
 # Fake database in memory
 students = [
